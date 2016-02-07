@@ -1,0 +1,26 @@
+{
+	"name": "html-mason",
+	"displayName": "HTML (Mason)",
+	"description": "HTML Mason grammar for VS Code",
+	"version": "0.0.1",
+	"publisher": "viatsko",
+	"engines": {
+		"vscode": "^0.10.6"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "mason",
+			"aliases": ["HTML (Mason)", "mason"],
+			"extensions": [".mhtml",".autohandler",".dhandler",".md",".mc"],
+			"configuration": "./mason.configuration.json"
+		}],
+		"grammars": [{
+			"language": "mason",
+			"scopeName": "text.html.mason",
+			"path": "./syntaxes/mason.tmLanguage"
+		}]
+	}
+}
