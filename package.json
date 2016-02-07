@@ -2,7 +2,7 @@
 	"name": "html-mason",
 	"displayName": "HTML (Mason)",
 	"description": "HTML Mason grammar for VS Code",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"publisher": "viatsko",
 	"engines": {
 		"vscode": "^0.10.6"
@@ -20,7 +20,7 @@
 		"grammars": [{
 			"language": "mason",
 			"scopeName": "text.html.mason",
-			"path": "./syntaxes/mason.tmLanguage"
+			"path": "./syntaxes/html-mason.tmLanguage"
 		}]
 	}
 }
