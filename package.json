@@ -14,7 +14,7 @@
 		"languages": [{
 			"id": "mason",
 			"aliases": ["HTML (Mason)", "mason"],
-			"extensions": [".mhtml",".autohandler",".dhandler",".md",".mc"],
+			"extensions": [".mhtml",".autohandler",".dhandler",".md",".mc",".mi"],
 			"configuration": "./mason.configuration.json"
 		}],
 		"grammars": [{
